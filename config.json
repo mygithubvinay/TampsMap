@@ -1,0 +1,20 @@
+{
+  "webMapId": "02e36918a91d43ed970d127fa50bee38",
+  "portalUrl": "https://geosyncpvt.maps.arcgis.com",
+  "proxy": {
+    "proxyUrl": "https://arcgisdotnetproxy-gtgyfedfcqauh4hh.centralindia-01.azurewebsites.net/api/proxy?",
+    "urlPrefixes": [
+      "https://geosyncpvt.maps.arcgis.com",
+      "https://services6.arcgis.com/CIxzpxX6BeTmfUVW/arcgis/rest/services/SupportStructures/FeatureServer",
+      "https://server.arcgisonline.com",
+      "https://geosyncpvt.maps.arcgis.com/sharing/rest",
+      "https://services6.arcgis.com/CIxzpxX6BeTmfUVW/arcgis/rest/services/GeoTagImgLayer/FeatureServer"
+    ]
+  },
+  "search": {
+    "searchURL": "https://services6.arcgis.com/CIxzpxX6BeTmfUVW/arcgis/rest/services/SupportStructures/FeatureServer/0",
+    "searchField": "FacilityID",
+    "displayField": "FacilityID",
+    "placeholder": "Address or Pole"
+  }
+}

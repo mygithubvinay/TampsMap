@@ -1,0 +1,102 @@
+.selection-widget {
+  position: absolute;
+  top: 80px;
+  right: 20px;
+  width: 500px;
+  height: 570px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0,0,0,.25);
+  z-index: 999;
+  overflow: hidden;
+}
+
+.selection-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 15px;
+  background: #0079c1;
+  color: white;
+  font-weight: 600;
+}
+
+.selection-header button {
+  background: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.selection-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-top: 5px;
+}
+
+.selection-toolbar {
+  display: flex;
+  padding: 5px;
+}
+
+.selection-toolbar button {
+  border: none;
+  background: #f3f3f3;
+  padding: 8px 14px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.selection-toolbar button:hover {
+  background: #0079c1;
+  color: white;
+}
+
+.tool-button {
+  width: 40px;
+  height: 40px;
+  border: none;
+  background: #f3f3f3;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.tool-button:hover {
+  background: #0079c1;
+  color: white;
+}
+
+.selection-mode {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.selection-mode select {
+  width: 170px;
+  padding: 8px;
+}
+
+.selection-select {
+  width: 170px;
+  height: 30px;
+}
+
+.push-button {
+  height: 30px;
+  padding: 0 15px;
+  background: #1d2b4d;
+  color: #fff;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.selection-count {
+  padding: 15px;
+  font-weight: bold;
+  border-top: 1px solid #ddd;
+}
